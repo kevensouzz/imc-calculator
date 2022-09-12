@@ -62,25 +62,31 @@ article {
   display: inline;
   text-align: center;
 }
+
 #content #title {
   width: 100%;
   font-size: 13px;
   padding: 25px 25px 10px 25px;
 }
+
 #content #dados {
   font-size: 16px;
 }
+
 #content #dados div {
   padding: 10px 0px;
 }
+
 #content #dados div h1 {
   padding: 0px 0px 5px 0px;
 }
+
 #content #dados div input {
   padding: 10px;
   outline: none;
   border-radius: 10px;
 }
+
 #content #calculo {
   display: flex;
   align-items: center;
@@ -89,12 +95,14 @@ article {
   height: 10%;
   margin-top: 10px;
 }
+
 #content #calculo #botao-calcular {
   border: 1px solid #00fff2;
   border-radius: 10px;
   background: rgba(0, 0, 0, 0.5);
   padding: 10px;
 }
+
 #content #resultado {
   display: flex;
   align-items: center;
@@ -104,6 +112,7 @@ article {
   padding: 10px;
   margin-top: 10px;
 }
+
 #content #resultado #campo-resultado {
   display: flex;
   align-items: center;
@@ -123,6 +132,7 @@ footer {
   align-items: center;
   justify-content: space-around;
 }
+
 footer p {
   display: none;
 }
@@ -132,43 +142,56 @@ footer p {
     width: 400px;
     flex-direction: column;
   }
+
   #storyset {
     width: 100%;
     height: 40%;
   }
+
   #storyset img {
     height: 100%;
   }
+
   #content {
     width: 100%;
     height: 60%;
   }
+
   #content #title {
     padding: 0px 10px 10px 10px;
     font-size: 14px;
   }
+
   #content #dados {
     font-size: 10px;
   }
+
   #content #dados div {
     padding: 5px 0px;
   }
+
   #content #dados div input {
     padding: 5px;
   }
+
   #content #calculo {
     height: 12%;
     margin-top: 5px;
   }
+
   #content #calculo #botao-calcular {
     padding: 5px;
   }
 }
+
 @media (max-width: 425px) {
   section {
     width: 300px;
   }
+
   #content #title {
     font-size: 10px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
