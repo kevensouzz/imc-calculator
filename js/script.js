@@ -5,7 +5,7 @@ function calcular() {
 
     let imc = weight / height ** 2
 
-    document.getElementById('campo-resultado-imc').innerHTML = imc
+    document.getElementById('campo-resultado-imc').innerHTML = imc.toFixed(3)
 
     if (imc < 18.5) {
         document.getElementById('campo-resultado-text').innerHTML = 'ABAIXO DO PESO IDEAL!'
