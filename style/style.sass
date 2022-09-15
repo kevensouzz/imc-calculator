@@ -101,12 +101,16 @@ article
         padding: 10px
         margin-top: 10px
         #campo-resultado
-            @include flex-center()
+            display: inline
             @include border-r10()
             @include border()
             background: $opacity075
             height: 100%
             width: 100%
+            .res
+                @include flex-center()
+                height: 50%
+                width: 100%
 
 @media (min-width: 768px)
     #botao-calcular
@@ -140,6 +144,8 @@ article
             margin-top: 5px
             #botao-calcular
                 padding: 5px
+    #campo-resultado
+        font-size: 14px
 
 @media (max-width: 425px)
     section
